@@ -36,6 +36,7 @@ gulp.task('style', function(){
 gulp.task('script', function(){
     return gulp.src([
               //  Подключаем библиотеки
+        'node_modules/mixitup/dist/mixitup.js',
         'node_modules/slick-carousel/slick/slick.js',
         'node_modules/magnific-popup/dist/jquery.magnific-popup.js'
     ])
