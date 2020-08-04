@@ -9,6 +9,11 @@
         text-align: left;
     }
 }
+@media (max-width: 1770px){
+    .products__inner-box{
+        justify-content: center;
+    }
+}
 @media (max-width: 1441px){
     .product-slider__inner{
         text-align: center;
